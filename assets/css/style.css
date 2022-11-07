@@ -1,6 +1,13 @@
-/* Base */
+:root {
+  --primary: #1e90ff;
+  --secondary: #ffffff;
+}
+
 html {
   overflow-x: hidden;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -100,8 +107,8 @@ body:after {
 }
 
 .btn.btn-primary {
-  background: #207561;
-  border-color: #207561;
+  background: var(--primary);
+  border-color: var(--primary);
   color: #fff;
 }
 
@@ -132,7 +139,7 @@ body:after {
 
 .form-control:active,
 .form-control:focus {
-  border-color: #207561;
+  border-color: var(--primary);
 }
 
 .form-control:hover,
@@ -421,7 +428,7 @@ body:after {
 .site-navbar .site-logo a {
   display: inline-block;
   padding: 5px 10px;
-  color: #207561 !important;
+  color: var(--primary) !important;
 }
 
 .site-navbar .site-navigation .site-menu {
@@ -450,7 +457,7 @@ body:after {
 }
 
 .site-navbar .site-navigation .site-menu>li>a:hover {
-  color: #207561;
+  color: var(--primary);
 }
 
 .site-navbar .site-navigation .site-menu .has-children {
@@ -524,7 +531,7 @@ body:after {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
-  color: #207561 !important;
+  color: var(--primary) !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li {
@@ -540,7 +547,7 @@ body:after {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li>a:hover {
-  background: #eff1f3;
+  /* background: #eff1f3; */
   color: #000;
 }
 
@@ -558,7 +565,7 @@ body:after {
 .site-navbar .site-navigation .site-menu .has-children:hover>a,
 .site-navbar .site-navigation .site-menu .has-children:focus>a,
 .site-navbar .site-navigation .site-menu .has-children:active>a {
-  color: #207561;
+  color: var(--primary);
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover,
@@ -584,7 +591,7 @@ body:after {
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  background: #fff;
+  /* background: #fff; */
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -669,7 +676,7 @@ body:after {
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #207561;
+  color: var(--primary);
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -678,7 +685,7 @@ body:after {
 }
 
 .site-mobile-menu .site-nav-wrap li .active {
-  color: #207561;
+  color: var(--primary);
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -694,7 +701,7 @@ body:after {
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse:hover {
-  background: #f8f9fa;
+  /* background: #f8f9fa; */
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
@@ -801,7 +808,7 @@ body:after {
 
 .sticky-wrapper .site-navbar .site-menu>li>a:hover,
 .sticky-wrapper .site-navbar .site-menu>li>a.active {
-  color: #207561 !important;
+  color: var(--primary) !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
@@ -825,7 +832,7 @@ body:after {
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a.active {
-  color: #207561 !important;
+  color: var(--primary) !important;
 }
 
 .sticky-wrapper .shrink {
@@ -912,7 +919,7 @@ body:after {
   bottom: 0;
   left: 0;
   height: 2px;
-  background: #207561;
+  background: var(--primary);
   width: 50px;
 }
 
@@ -961,7 +968,7 @@ body:after {
   height: 50px;
   line-height: 50px;
   border-radius: 50%;
-  background: #207561;
+  background: var(--primary);
   display: inline-block;
   color: #fff;
   text-align: center;
@@ -1215,7 +1222,7 @@ body:after {
 }
 
 .blog_entry .more a:hover:before {
-  background: #207561;
+  background: var(--primary);
 }
 
 .form .form-control {
@@ -1277,9 +1284,52 @@ ul.timeline>li:before {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #207561;
+  border: 3px solid var(--primary);
   left: 20px;
   width: 20px;
   height: 20px;
   z-index: 400;
+}
+
+.experience-title {
+  color: rgba(0, 0, 0, 0.748);
+}
+
+.experience-title:hover {
+  color: var(--primary);
+}
+
+.experience-date {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.experience-date:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-twitter {
+  background-color: #1d9bf0;
+  border: #1d9bf0;
+  color: white;
+}
+
+.btn-twitter:hover {
+  background-color: white;
+  color: #1d9bf0;
+}
+
+.btn-linkedin {
+  background-color: #0a66c2;
+  border: #0a66c2;
+  color: white;
+}
+
+.btn-linkedin:hover {
+  background-color: white;
+  color: #0a66c2;
+}
+
+.oh-my-lord {
+  font-weight: bold;
 }

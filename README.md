@@ -1,2 +1,0 @@
-# chanurholis.github.io
-Portfolio 💼
