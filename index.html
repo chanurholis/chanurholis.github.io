@@ -26,10 +26,12 @@
     <!-- End Google Tag Manager -->
 
     <!-- Google Optimize -->
-    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-P5J2G7M"></script>
+    <script async src="https://www.googleoptimize.com/optimize.js?id=OPT-P5J2G7M"></script>
 
     <!-- Primary Meta Tags -->
     <title>Chacha Nurholis | Full Stack Developer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Chacha Nurholis | Full Stack Developer">
     <meta name="description" content="I am a Full Stack Developer with full of
         confidence and optimism to always
@@ -68,21 +70,25 @@
         methodologies.">
     <meta property="twitter:image" content="https://chanurholis.github.io/assets/photos/chacha-nurholis.jpg">
 
-    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Open+Sans:300,400,700" rel="stylesheet">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Jquery UI -->
-    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+
     <!-- Owl -->
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+
     <!-- Jquery Fancybox -->
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- <link rel="stylesheet" href="css/jquery.fancybox.min.css"> -->
+
     <!-- AOS -->
-    <link rel="stylesheet" href="css/aos.css">
+    <!-- <link rel="stylesheet" href="css/aos.css"> -->
+
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -110,19 +116,19 @@
                     <div class="">
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                                <li><a href="#home-section" class="nav-link">Home</a></li>
-                                <li><a href="#passion-section" class="nav-link">Passion</a></li>
+                                <li><a href="#home-section" class="nav-link" aria-label="Home">Home</a></li>
+                                <li><a href="#passion-section" class="nav-link" aria-label="Passion">Passion</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class=" text-center mx-5">
-                        <h1 class="m-0 site-logo"><a href="#">Who Is</a></h1>
+                        <h1 class="m-0 site-logo"><a href="#" aria-label="Logo">Who Is</a></h1>
                     </div>
                     <div class="text-left">
                         <nav class="site-navigation position-relative" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                                <li><a href="#about-section" class="nav-link">About</a></li>
-                                <li><a href="#project-section" class="nav-link">Project</a></li>
+                                <li><a href="#about-section" class="nav-link" aria-label="About">About</a></li>
+                                <li><a href="#project-section" class="nav-link" aria-label="Project">Project</a></li>
                             </ul>
                         </nav>
                         <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;">
@@ -143,7 +149,10 @@
                             <div class="col-lg-6">
                                 <h1 class="text-black">Chacha Nurholis</h1>
                                 <p class="lead">Web Developer Based on Indonesia</p>
-                                <p><a href="#project-section" class="btn smoothscroll btn-primary">project</a></p>
+                                <a href="#project-section" class="btn btn-primary" aria-label="LinkedIn">
+                                    <span class="fab fa-linkedin"></span>
+                                    LinkedIn
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -274,10 +283,12 @@
                     <div class="col-12 mb-4 position-relative">
                         <h2 class="section-title">About Me</h2>
                     </div>
-                    <div class="col-lg-4 order-3 order-lg-3 text-justify">
+                    <div class="col-lg-6 order-3 order-lg-3 text-justify">
                         <p>
-                            Hi!👋 my name is Chacha Nurholis, currently studying 12th grade in software engineering.
-                            An open source activist and often contributes to forums.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ratione eius voluptatum
+                            nesciunt vel magnam doloremque. Debitis, quam. Odit consectetur tempora adipisci vel tempore
+                            fugit at sed vero accusantium repudiandae, enim autem animi officia accusamus distinctio
+                            cupiditate. Minus, quia consequuntur.
                         </p>
                         <a href="mailto:chachanurholis29@gmail.com" target="_blank"
                             class="btn smoothscroll btn-primary mt-4">Contact Me</a>
@@ -286,8 +297,49 @@
             </div>
         </div>
 
+        <div class="site-section" id="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 position-relative">
+                        <h2 class="section-title">Experience</h2>
+                    </div>
+                    <div class="col-lg-6 order-3 order-lg-3 text-justify">
+                        <ul class="timeline">
+                            <li>
+                                <a target="_blank" href="https://www.totoprayogo.com/#">Full Stack Developer -
+                                    tirto.id</a>
+                                <br>
+                                <a href="#">26 September 2022 - Now</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                                    nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis
+                                    sagittis ligula in sodales vehicula....</p>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.totoprayogo.com/#">Full Stack Developer -
+                                    DHealth</a>
+                                <br>
+                                <a href="#">Juny 2021 - September 2022</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                                    nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis
+                                    sagittis ligula in sodales vehicula....</p>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.totoprayogo.com/#">Web Developer -
+                                    Poltekpos</a>
+                                <br>
+                                <a href="#">July - December 2019</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                                    nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis
+                                    sagittis ligula in sodales vehicula....</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- My Project -->
-        <section class="site-section block__62272" id="project-section">
+        <!-- <section class="site-section block__62272" id="project-section">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 position-relative">
@@ -296,26 +348,29 @@
                 </div>
                 <div id="posts" class="row no-gutter">
                     <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                        <a href="css/img/bayarin.png" class="item-wrap fancybox">
+                        <a href="assets/img/bayarin.png" class="item-wrap fancybox">
                             <span class="icon-search2"></span>
-                            <img class="img-fluid" src="css/img/bayarin.png">
+                            <img class="img-fluid" src="assets/img/bayarin.png" alt="Bayarin" loading="lazy"
+                                width="100%" height="100%">
                         </a>
                     </div>
                     <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                        <a href="css/img/value-nusantara.png" class="item-wrap fancybox">
+                        <a href="assets/img/value-nusantara.png" class="item-wrap fancybox">
                             <span class="icon-search2"></span>
-                            <img class="img-fluid" src="css/img/value-nusantara.png">
+                            <img class="img-fluid" src="assets/img/value-nusantara.png" alt="Value Nusantara"
+                                loading="lazy" width="100%" height="100%">
                         </a>
                     </div>
                     <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                        <a href="css/img/laporin.png" class="item-wrap fancybox">
+                        <a href="assets/img/laporin.png" class="item-wrap fancybox">
                             <span class="icon-search2"></span>
-                            <img class="img-fluid" src="css/img/laporin.png">
+                            <img class="img-fluid" src="assets/img/laporin.png" alt="Laporin" loading="lazy"
+                                width="100%" height="100%">
                         </a>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="site-section bg-dark">
             <div class="container">
@@ -340,7 +395,7 @@
                     </div>
                     <div class="slide">
                         <blockquote>
-                            <p>If you don’t build your dream, someone else will hire you to help them build theirs.</p>
+                            <p>If you don't build your dream, someone else will hire you to help them build theirs.</p>
                             <p><cite>&mdash; Tony Gaskin</cite></p>
                         </blockquote>
                     </div>
@@ -353,18 +408,18 @@
                 <div class="row mb-5">
                     <div class="col-md-3">
                         <h3 class="footer-title">Me Address</h3>
-                        <p>Subang, Jawa Barat, Indonesia.</p>
+                        <p>Jakarta, Indonesia.</p>
                     </div>
                     <div class="col-md-3">
                         <h3 class="footer-title">Follow Me</h3>
-                        <a target="_blank" href="https://twitter.com/chanurholis" class="social-circle"><span
+                        <a target="_blank" href="https://twitter.com/chanurholis" class="social-circle" aria-label="Twitter Icon"><span
                                 class="fab fa-twitter"></span></a>
                         <a target="_blank" href="https://www.facebook.com/chacha.nurholis.14"
-                            class="social-circle"><span class="fab fa-facebook"></span></a>
-                        <a target="_blank" href="https://www.instagram.com/chanurholis/" class="social-circle"><span
+                            class="social-circle"><span class="fab fa-facebook" aria-label="Facebook Icon"></span></a>
+                        <a target="_blank" href="https://www.instagram.com/chanurholis/" class="social-circle" aria-label="Instagram Icon"><span
                                 class="fab fa-instagram"></span></a>
-                        <a target="_blank" href="https://linkedin.com/in/chacha-n-498103114" class="social-circle"><span
-                                class="fab fa-linkedin"></span></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/chachanurholis/"
+                            class="social-circle" aria-label="LinkedIn Icon"><span class="fab fa-linkedin"></span></a>
                     </div>
                 </div>
             </div>
@@ -372,27 +427,39 @@
     </div>
 
     <!-- Jquery -->
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+
     <!-- Jquery UI -->
-    <script src="js/jquery-ui.js"></script>
+    <!-- <script src="js/jquery-ui.js"></script> -->
+
     <!-- Popper -->
-    <script src="js/popper.min.js"></script>
+    <!-- <script src="js/popper.min.js"></script> -->
+
     <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
+
     <!-- Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
+    <!-- <script src="js/owl.carousel.min.js"></script> -->
+
     <!-- Jquery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- <script src="js/jquery.easing.1.3.js"></script> -->
+
     <!-- AOS -->
-    <script src="js/aos.js"></script>
+    <!-- <script src="js/aos.js"></script> -->
+
     <!-- Jquery Fancybox -->
-    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- <script src="js/jquery.fancybox.min.js"></script> -->
+
     <!-- Jquery Sticky -->
-    <script src="js/jquery.sticky.js"></script>
+    <!-- <script src="js/jquery.sticky.js"></script> -->
+
     <!-- Isotope -->
-    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- <script src="js/isotope.pkgd.min.js"></script> -->
+
     <!-- Main JS -->
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
 </body>
 
 </html>
