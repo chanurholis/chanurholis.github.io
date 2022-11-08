@@ -1333,3 +1333,9 @@ ul.timeline>li:before {
 .oh-my-lord {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 390px) {
+  .btn-linkedin {
+    margin-bottom: 5px;
+  }
+}
